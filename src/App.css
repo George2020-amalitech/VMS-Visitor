@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 246, 253);
+}
+
+.home{
+  background: #FFB75E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+.nav{
+  padding-left: 50px;
+  margin-top: 0;
+  background-color: black;
+}
+
+.start{
+  color: #200d01;
+  float: right;
+  padding-right: 35%;
+  margin-top: 16%;
+  border: none ;
+  background: none;
+  font-size: 2rem;
+}
+
+.ama{
+  letter-spacing: 0.2em;
+}
+#icon{
+  color: red;
+}
+
+.main{
+  color: #291001;
+  padding-left: 50px;
+  margin-top: 15%;
+}
+
+h1{
+  text-align: center;
+  color: #291001;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+h3{
+  font-family: 'Sofia', cursive;
+  text-align: center;
+}
+
+.login {
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #e9e9e9;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #d46938;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  color: #291001;
+  margin: 10px 0;
+  display: block;
+  font-size: 1.5em;
+  line-height: 1;
+  text-align: center;
+}
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  background: #ecc9b3c0;
+  letter-spacing: 0.5px;
+}
+
+.sel{
+  border-radius:5px;
+  color: #291001;
+  border: 6px solid transparent;
+  width: 100%;
+  text-align: center;
+  background: #ecc9b3c0;
+}
+
+.Next{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  float:right;
+  cursor: pointe;
+}
+
+.Back{
+  background-color: #ff1010; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  float: left;
+  cursor: pointe;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.input1{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: #ecc9b3c0;
+  letter-spacing: 1px;
+}
+
